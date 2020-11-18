@@ -6,6 +6,7 @@
 public class region
 {
     public string name { get; set; }
+    
     public List<city> cities { get; set; }
 
 }
@@ -13,7 +14,11 @@ public class region
 public class city
 {
     public string name { get; set; }
+    
     public int utc { get; set; }
+    
     public string time_zons { get; set; }
+    
     public string coordinates { get; set; }
+    
 }
